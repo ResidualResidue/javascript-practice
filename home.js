@@ -110,3 +110,19 @@ console.log(somenumbers.sort((a,b) => {
     return b-a;
 }));
 
+// OBJECTS
+
+let student = {
+    firstname: 'rafi',
+    lastname: 'qazi',
+    age: 25,
+    weight: 180,
+    studentInfo: function (){
+        return "First Name: " + this.firstname + '\nLast Name: ' + this.lastname + '\nAge: ' + this.age + '\nWeight: ' + this.weight;
+    }
+};
+
+console.log(student['firstname'] + ' ' + student.lastname);
+console.log(student.studentInfo());
+
+// IF ELSE SWITCH
