@@ -55,7 +55,7 @@ let random; //undefined
 let nothing = null; //null
 
 
-// STRINGS
+// STRINGSs
 
 let fruit = 'banana';
 let morefruit ='apple\nbanana'; //newlines
@@ -126,3 +126,36 @@ console.log(student['firstname'] + ' ' + student.lastname);
 console.log(student.studentInfo());
 
 // IF ELSE SWITCH
+
+
+var age2  = prompt("what is your age?");
+if(age2 == "10"){
+    console.log("You are 10")
+}else if(age2 == "12"){
+    console.log("You are 12");
+}else{
+    console.log("what");
+}
+
+var day = prompt("what day is it?");
+
+switch(day){
+    case "0":
+        console.log("weekend");
+        break;
+    case "5":
+        console.log("weekend");
+        break;
+    case "6":
+        console.log("weekend")
+        break;
+    default:
+        console.log("weekday");
+}
+
+fetch('/student.json')
+      .then(response => response.json())
+      .then(data => {
+        console.log(data);
+      })
+      .catch(error => console.error('Error:', error));
