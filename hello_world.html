@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello World</title>
+    </head>
+    <body>
+        <h1>Hello, world!</h1>
+
+        <p>Vulnerable element (innerHTML modified):</p>
+        <p id="xss_vulnerable"></p>
+
+        <p>Safe element (innerText modified):</p>
+        <p id="xss_safe"></p>
+
+        <p id="age"></p>
+
+        <script>
+            console.log('Hello, world, from inline JS!');
+        </script>
+        <script src="hello_world.js"></script>
+    </body>
+</html>
