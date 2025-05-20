@@ -9,3 +9,6 @@ Credit to Clever Programmer: https://www.youtube.com/watch?v=Qqx_wzMmFeA&t=46s&a
 
 (05/12/2025)
 15:49 - Numbers in Javascript
+
+(05/20/2025)
+33:34 - While vs For
